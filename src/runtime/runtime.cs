@@ -72,8 +72,8 @@ namespace Python.Runtime
         internal const string _pyversion = "3.9";
         internal const string _pyver = "39";
 #elif PYTHON310
-        internal const string _pyversion = "3.9";
-        internal const string _pyver = "39";
+        internal const string _pyversion = "3.10";
+        internal const string _pyver = "310";
 #else
 #error You must define one of PYTHON34 to PYTHON310 or PYTHON27
 #endif
