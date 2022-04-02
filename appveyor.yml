@@ -16,7 +16,7 @@ environment:
 
   matrix:
     - PYTHON_VERSION: 3.10
-          BUILD_OPTS: --xplat
+      BUILD_OPTS: --xplat
     - PYTHON_VERSION: 3.9
       BUILD_OPTS: --xplat
     - PYTHON_VERSION: 3.8
@@ -29,9 +29,8 @@ environment:
       BUILD_OPTS: --xplat
     - PYTHON_VERSION: 2.7
       BUILD_OPTS: --xplat
-    - PYTHON_VERSION: 3.9
     - PYTHON_VERSION: 3.10
-        PYTHONNET_SHUTDOWN_MODE: Soft
+    - PYTHON_VERSION: 3.9
     - PYTHON_VERSION: 3.8
     - PYTHON_VERSION: 3.7
     - PYTHON_VERSION: 3.6
